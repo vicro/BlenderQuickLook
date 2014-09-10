@@ -1,0 +1,345 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A43226F3197784F1002CA331 /* blendfile.c in Sources */ = {isa = PBXBuildFile; fileRef = A43226F1197784F1002CA331 /* blendfile.c */; };
+		A43226F4197784F1002CA331 /* blendfile.h in Headers */ = {isa = PBXBuildFile; fileRef = A43226F2197784F1002CA331 /* blendfile.h */; };
+		A443BFCD1977942B005AC24B /* BlenderQuickLook.qlgenerator in CopyFiles */ = {isa = PBXBuildFile; fileRef = A48359A11976759B000EA1A8 /* BlenderQuickLook.qlgenerator */; };
+		A48359A51976759B000EA1A8 /* QuickLook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A48359A41976759B000EA1A8 /* QuickLook.framework */; };
+		A48359A71976759B000EA1A8 /* ApplicationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A48359A61976759B000EA1A8 /* ApplicationServices.framework */; };
+		A48359A91976759B000EA1A8 /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A48359A81976759B000EA1A8 /* CoreServices.framework */; };
+		A48359AB1976759B000EA1A8 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A48359AA1976759B000EA1A8 /* CoreFoundation.framework */; };
+		A48359B11976759B000EA1A8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A48359AF1976759B000EA1A8 /* InfoPlist.strings */; };
+		A48359B31976759B000EA1A8 /* GenerateThumbnailForURL.c in Sources */ = {isa = PBXBuildFile; fileRef = A48359B21976759B000EA1A8 /* GenerateThumbnailForURL.c */; };
+		A48359B51976759B000EA1A8 /* GeneratePreviewForURL.c in Sources */ = {isa = PBXBuildFile; fileRef = A48359B41976759B000EA1A8 /* GeneratePreviewForURL.c */; };
+		A48359B71976759B000EA1A8 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = A48359B61976759B000EA1A8 /* main.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A43226F5197792F5002CA331 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "~/Library/QuickLook";
+			dstSubfolderSpec = 0;
+			files = (
+				A443BFCD1977942B005AC24B /* BlenderQuickLook.qlgenerator in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A43226F1197784F1002CA331 /* blendfile.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = blendfile.c; sourceTree = "<group>"; };
+		A43226F2197784F1002CA331 /* blendfile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = blendfile.h; sourceTree = "<group>"; };
+		A48359A11976759B000EA1A8 /* BlenderQuickLook.qlgenerator */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlenderQuickLook.qlgenerator; sourceTree = BUILT_PRODUCTS_DIR; };
+		A48359A41976759B000EA1A8 /* QuickLook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickLook.framework; path = System/Library/Frameworks/QuickLook.framework; sourceTree = SDKROOT; };
+		A48359A61976759B000EA1A8 /* ApplicationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ApplicationServices.framework; path = System/Library/Frameworks/ApplicationServices.framework; sourceTree = SDKROOT; };
+		A48359A81976759B000EA1A8 /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = System/Library/Frameworks/CoreServices.framework; sourceTree = SDKROOT; };
+		A48359AA1976759B000EA1A8 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		A48359AE1976759B000EA1A8 /* BlenderQuickLook-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BlenderQuickLook-Info.plist"; sourceTree = "<group>"; };
+		A48359B01976759B000EA1A8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A48359B21976759B000EA1A8 /* GenerateThumbnailForURL.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = GenerateThumbnailForURL.c; sourceTree = "<group>"; };
+		A48359B41976759B000EA1A8 /* GeneratePreviewForURL.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = GeneratePreviewForURL.c; sourceTree = "<group>"; };
+		A48359B61976759B000EA1A8 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		A48359B81976759B000EA1A8 /* BlenderQuickLook-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BlenderQuickLook-Prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A483599C1976759B000EA1A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A48359AB1976759B000EA1A8 /* CoreFoundation.framework in Frameworks */,
+				A48359A51976759B000EA1A8 /* QuickLook.framework in Frameworks */,
+				A48359A91976759B000EA1A8 /* CoreServices.framework in Frameworks */,
+				A48359A71976759B000EA1A8 /* ApplicationServices.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A48359961976759B000EA1A8 = {
+			isa = PBXGroup;
+			children = (
+				A48359AC1976759B000EA1A8 /* BlenderQuickLook */,
+				A48359A31976759B000EA1A8 /* Frameworks */,
+				A48359A21976759B000EA1A8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A48359A21976759B000EA1A8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A48359A11976759B000EA1A8 /* BlenderQuickLook.qlgenerator */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A48359A31976759B000EA1A8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A48359A41976759B000EA1A8 /* QuickLook.framework */,
+				A48359A61976759B000EA1A8 /* ApplicationServices.framework */,
+				A48359A81976759B000EA1A8 /* CoreServices.framework */,
+				A48359AA1976759B000EA1A8 /* CoreFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A48359AC1976759B000EA1A8 /* BlenderQuickLook */ = {
+			isa = PBXGroup;
+			children = (
+				A43226F1197784F1002CA331 /* blendfile.c */,
+				A43226F2197784F1002CA331 /* blendfile.h */,
+				A48359B21976759B000EA1A8 /* GenerateThumbnailForURL.c */,
+				A48359B41976759B000EA1A8 /* GeneratePreviewForURL.c */,
+				A48359B61976759B000EA1A8 /* main.c */,
+				A48359AD1976759B000EA1A8 /* Supporting Files */,
+			);
+			path = BlenderQuickLook;
+			sourceTree = "<group>";
+		};
+		A48359AD1976759B000EA1A8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A48359AE1976759B000EA1A8 /* BlenderQuickLook-Info.plist */,
+				A48359AF1976759B000EA1A8 /* InfoPlist.strings */,
+				A48359B81976759B000EA1A8 /* BlenderQuickLook-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A483599D1976759B000EA1A8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A43226F4197784F1002CA331 /* blendfile.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A48359A01976759B000EA1A8 /* BlenderQuickLook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A48359BB1976759B000EA1A8 /* Build configuration list for PBXNativeTarget "BlenderQuickLook" */;
+			buildPhases = (
+				A483599B1976759B000EA1A8 /* Sources */,
+				A483599C1976759B000EA1A8 /* Frameworks */,
+				A483599D1976759B000EA1A8 /* Headers */,
+				A483599E1976759B000EA1A8 /* Resources */,
+				A483599F1976759B000EA1A8 /* Rez */,
+				A43226F5197792F5002CA331 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BlenderQuickLook;
+			productName = BlenderQuickLook;
+			productReference = A48359A11976759B000EA1A8 /* BlenderQuickLook.qlgenerator */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A48359971976759B000EA1A8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = devdarko;
+			};
+			buildConfigurationList = A483599A1976759B000EA1A8 /* Build configuration list for PBXProject "BlenderQuickLook" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A48359961976759B000EA1A8;
+			productRefGroup = A48359A21976759B000EA1A8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A48359A01976759B000EA1A8 /* BlenderQuickLook */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A483599E1976759B000EA1A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A48359B11976759B000EA1A8 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		A483599F1976759B000EA1A8 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A483599B1976759B000EA1A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A48359B31976759B000EA1A8 /* GenerateThumbnailForURL.c in Sources */,
+				A43226F3197784F1002CA331 /* blendfile.c in Sources */,
+				A48359B51976759B000EA1A8 /* GeneratePreviewForURL.c in Sources */,
+				A48359B71976759B000EA1A8 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A48359AF1976759B000EA1A8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A48359B01976759B000EA1A8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A48359B91976759B000EA1A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A48359BA1976759B000EA1A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A48359BC1976759B000EA1A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BlenderQuickLook/BlenderQuickLook-Prefix.pch";
+				INFOPLIST_FILE = "BlenderQuickLook/BlenderQuickLook-Info.plist";
+				INSTALL_PATH = /Library/QuickLook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = qlgenerator;
+			};
+			name = Debug;
+		};
+		A48359BD1976759B000EA1A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BlenderQuickLook/BlenderQuickLook-Prefix.pch";
+				INFOPLIST_FILE = "BlenderQuickLook/BlenderQuickLook-Info.plist";
+				INSTALL_PATH = /Library/QuickLook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = qlgenerator;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A483599A1976759B000EA1A8 /* Build configuration list for PBXProject "BlenderQuickLook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A48359B91976759B000EA1A8 /* Debug */,
+				A48359BA1976759B000EA1A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A48359BB1976759B000EA1A8 /* Build configuration list for PBXNativeTarget "BlenderQuickLook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A48359BC1976759B000EA1A8 /* Debug */,
+				A48359BD1976759B000EA1A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A48359971976759B000EA1A8 /* Project object */;
+}
