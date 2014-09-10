@@ -36,8 +36,9 @@ Installation
 2. Copy the file to ~/Library/QuickLook/
 3. Wait until the QuickLook service gets refreshed and the thumbnails should start appearing OR manually refresh it running in the Terminal:
 
-	qlmanage -r
-
+```
+qlmanage -r
+```
 
 Links
 ---
