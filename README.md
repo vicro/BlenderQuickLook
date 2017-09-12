@@ -13,6 +13,12 @@ After
 
 ![after](img/Screenshot_after.png)
 
+Installer
+---------
+
+To get the latest built files head to [latest release]
+Confirmed it works in macOS Sierra 10.12.6
+
 About
 ---
 
