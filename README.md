@@ -16,7 +16,8 @@ After
 Installer
 ---------
 
-To get the latest built files head to [latest release]
+To get the latest built files head to [latest release](https://github.com/vicro/BlenderQuickLook/releases/latest).
+
 Confirmed it works in macOS Sierra 10.12.6
 
 About
